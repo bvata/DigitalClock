@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:url(https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg);
+    background-size: cover;
+    color: rgb(209, 215, 179);
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: rgb(249, 239, 225);
+}
+
+
+.clock{
+    display: flex;
+
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    font-size: 50px;
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    display: flex;
+    opacity: .8;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgb(0,0,0,.3);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: .8;
+
+}
+#ampm{
+    height: 30px;
+    width:60px;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    background: rgb(33, 33, 146);
+}
